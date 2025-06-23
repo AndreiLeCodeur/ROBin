@@ -32,7 +32,7 @@ HandleComputer = function(computer)
             PrintFolders(path, computer)
         else if command == "s" then
             PrintFiles(path, computer)
-        else if command =="help" then
+        else if command == "help" then
             print("sf > show folders | s > show files | help | cd | cat")
         else if command == "cd" then
             path = user_input("Path : ")
